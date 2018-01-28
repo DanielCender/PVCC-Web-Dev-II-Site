@@ -6,22 +6,27 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Header */
+
 #header-container {
 	text-align: center;
 	font-size: 1.2em;
 }
 
 #personal-logo {
-	max-width: 30%;
+	max-width: 25%;
 	height: auto;
 }
 
-h2 {
-	text-align: center;
+#assignments-header {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
 	background-color: aquamarine;
 	border-radius: 25px;
 	padding: 20px;
 	max-width: 400px;
+	font-size: 1em;
 }
 
 /* Card Styling */
@@ -59,7 +64,7 @@ h2 {
 	display: none;
 }
 
-.card-1:hover .card-1 ~ .card-fade-in {
+.card-outer:hover .card-fade-in {
 	display: inherit;
 	text-align: center;
 }

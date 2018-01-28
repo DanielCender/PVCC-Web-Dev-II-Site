@@ -8,7 +8,7 @@ ol {
 	text-align: left;
 	padding-left: 20%;
 	padding-right: 20%;
-	
+	margin-bottom: 50px;
 }
 
 li {
@@ -16,4 +16,8 @@ li {
 	background-color: aquamarine;
 	border-radius: 25px;
 	margin: 10px 15px 10px 20px;
+}
+
+a {
+	font-size: 1.2em;
 }
