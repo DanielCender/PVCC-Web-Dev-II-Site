@@ -1,0 +1,67 @@
+/* CSS Document */
+
+/* "Zero out" html page */
+html {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header-container {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#personal-logo {
+	max-width: 30%;
+	height: auto;
+}
+
+/* Card Styling */
+
+#card-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 50px;
+	grid-row-gap: 50px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.card-outer {
+	background-color: #3e4444;
+	max-width: 350px;
+	display: flex;
+	flex-direction: row;
+  	grid-column-start: auto;
+  	grid-column-end: span 1;
+	height: auto;
+	text-align: center;
+	justify-content: center;
+}
+
+.card-inner {
+	background-color: #82b74b; 
+	text-align: center;
+	color: white;
+	height: 80%;
+	width: 80%;
+}
+
+.card-fade-in {
+	display: none;
+}
+
+.card-1:hover .card-1 ~ .card-fade-in {
+	display: inherit;
+	text-align: center;
+}
+
+.view-page {
+	background-color: #405d27;
+	width: 60%;
+	text-align: center;
+}
+
+a {
+	
+}
