@@ -1,0 +1,19 @@
+/* CSS Document */
+
+h1 {
+	text-align: center;
+}
+
+ol {
+	text-align: left;
+	padding-left: 20%;
+	padding-right: 20%;
+	
+}
+
+li {
+	padding: 10px 10px 10px 10px;
+	background-color: aquamarine;
+	border-radius: 25px;
+	margin: 10px 15px 10px 20px;
+}

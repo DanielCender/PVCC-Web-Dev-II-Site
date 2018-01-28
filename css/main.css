@@ -16,6 +16,14 @@ html {
 	height: auto;
 }
 
+h2 {
+	text-align: center;
+	background-color: aquamarine;
+	border-radius: 25px;
+	padding: 20px;
+	max-width: 400px;
+}
+
 /* Card Styling */
 
 #card-container {
@@ -65,3 +73,8 @@ html {
 a {
 	
 }
+
+footer {
+	text-align: center;
+}
+
