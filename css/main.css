@@ -14,7 +14,7 @@ html {
 }
 
 #personal-logo {
-	max-width: 25%;
+	max-width: 200px;
 	height: auto;
 }
 
@@ -33,7 +33,7 @@ html {
 
 #card-container {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto;
 	grid-column-gap: 50px;
 	grid-row-gap: 50px;
 	padding-right: 5%;
@@ -69,10 +69,15 @@ html {
 	text-align: center;
 }
 
+.card-outer:checked .card-fade-in {
+	
+}
+
 .view-page {
 	background-color: #405d27;
 	width: 60%;
 	text-align: center;
+	flex-direction: column;
 }
 
 a {
@@ -83,3 +88,8 @@ footer {
 	text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+	.card-fade-in {
+		display: grid;
+	}
+}
