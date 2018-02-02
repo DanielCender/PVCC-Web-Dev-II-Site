@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bigred {
+	color: red;
+	font-size: 2.2em;
+	text-align: center;
+}
+table {
+	border: 2px solid blue;
+	width: 85%;
+	margin: auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+td, th {
+	border: 2px blue solid;
+	padding: 1em;
+	text-align: center;
+}
+#bottom {
+	text-align: left;
+	font-size: .8em;
+	background-color: lightgreen;
+}
+html {
+	font-size: 1.2em;
+	background-color:tan;
+}
+
+#content {
+	width:65%;
+	background-color: gold;
+	
+}
+
+#menu {
+	width:33%;
+}
