@@ -1,9 +1,4 @@
-/* CSS Document */
-/* "Zero out" html page */
-html {
-  width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
-}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 body {
   background: #dce1df;
   color: #4f585e;
@@ -157,7 +152,4 @@ div.card.show div.flap1 {
 }
 div.card.show div.flap2 {
   transition: all 0.3s 0.2s ease-out;
-}
-footer {
-  text-align: center;
 }
