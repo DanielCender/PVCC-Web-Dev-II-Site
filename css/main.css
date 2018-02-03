@@ -14,6 +14,29 @@ header {
 	text-align: center;
 }
 
+/* style the footer */
+footer {
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+}
+footer table {
+	text-align: center;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+footer table tr td {
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+footer table tr td a:hover {
+	color: red;
+}
+
 /* style the code logo */
 #personal-logo {
 	max-width: 200px;
