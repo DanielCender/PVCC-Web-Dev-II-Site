@@ -1,49 +1,11 @@
 // JavaScript Document
 // A function to work the transitions between selected and deselected cards.
+// JK, I'll find some way to integrate JS into this page later on when I get more proficient.
+// Everything I want to do is probably easier to layout in jQuery
 
-$(document).ready(function(){
-	
-	"use strict";
-  var zindex = 10;
-  
-  $("div.card").click(function(e){
-    e.preventDefault();
 
-    var isShowing = false;
+// Maybe a canvas feature or animation behind the cards, depending on time of year
 
-    if ($(this).hasClass("show")) {
-      isShowing = true;
-    }
-
-    if ($("div.cards").hasClass("showing")) {
-      // a card is already in view
-      $("div.card.show")
-        .removeClass("show");
-
-      if (isShowing) {
-        // this card was showing - reset the grid
-        $("div.cards")
-          .removeClass("showing");
-      } else {
-        // this card isn't showing - get in with it
-        $(this)
-          .css({zIndex: zindex})
-          .addClass("show");
-
-      }
-
-      zindex++;
-
-    } else {
-      // no cards in view
-      $("div.cards")
-        .addClass("showing");
-      $(this)
-        .css({zIndex:zindex})
-        .addClass("show");
-
-      zindex++;
-    }
-    
-  });
-});
+// Maybe a changing CSS stylesheet based on time of day.
+// Oohh, maybe an animation that replicates the rise/fall of the sun/moon in Minecraft.
+// But it's on a minute cycle, so you can see it quickly.
