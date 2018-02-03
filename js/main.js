@@ -2,6 +2,7 @@
 // A function to work the transitions between selected and deselected cards.
 
 $(document).ready(function(){
+	
 	"use strict";
   var zindex = 10;
   
