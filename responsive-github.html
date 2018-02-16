@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/responsive-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>BetterWeb - GitHub</title>
+<script src="js/git-functions.js"></script>
+<!-- InstanceEndEditable -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+	<style>
+	#usProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#usBar {
+   width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+		
+	#asiaProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#asiaBar {
+   width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+		
+		
+		#euProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#euBar {
+   width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+		
+		body {
+			padding-bottom: 50px;
+		}
+	</style>
+<!-- InstanceEndEditable -->
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-theme w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>State of The<br>Net</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="responsive-home.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="responsive-github.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">GitHub</a> 
+    <a href="responsive-lang.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Languages</a> 
+    <a href="responsive-browsers.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Web Browsers</a> 
+    <a href="responsive-os.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">OS</a> 
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-theme w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-theme w3-margin-right" onclick="w3_open()">☰</a>
+  <span>BetterWeb.io</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! --><!-- InstanceBeginEditable name="Body Content" -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-theme"><b>GitHub.</b></h1>
+    <hr style="width:50px;border:5px solid lightgreen" class="w3-round">
+	  <img class="w3-image" src="images/octocat.png" alt="An octocat from GitHub"/>
+<p>In case any people weren't paying attention, GitHub has exploded in the past few years as a forerunner in managing code workflows for teams, both organized and open-source. It contains such a mass of codebases for different industries that it can be comprehensively used as a measure of the direction development is trending towards.</p>
+	  
+	  <p>In 2017, there were a grand total of 24 million developers working across roughly 67 million repositories. The most prolific regions for accounts are Asia, North America, and Europe. <b>Click the buttons below to see the region's percentage of the global total.</b></p>
+	  
+	  <!-- Progress Bar module -->
+	  
+		  <div>
+		  <h3>Accounts operated out of Asia: ~7.1m</h3>
+		  <div id="asiaProgress">
+  		<div id="asiaBar">0%</div>
+		</div>
+		  <br>
+		  <button class="w3-btn w3-block w3-teal" onClick="moveAsia()">See percent</button>
+		  </div>
+		  
+	  <div>
+		  <h3>Accounts operated out of North America: ~5.9m</h3>
+		  <div id="usProgress">
+  		<div id="usBar">0%</div>
+		</div>
+		  <br>
+		  <button class="w3-btn w3-block w3-teal" onClick="moveUS()">See percent</button>
+		  </div>
+		  
+		  <div>
+		  <h3>Accounts operated out of Europe: ~5.3m</h3>
+		  <div id="euProgress">
+  		<div id="euBar">0%</div>
+		</div>
+		  <br>
+		  <button class="w3-btn w3-block w3-teal" onClick="moveEU()">See percent</button>
+		  </div>
+	  
+	  <div>
+	  <p>All data taken from GitHub's 2017 end-of-year report here: <a href="https://octoverse.github.com/" target="_blank">GitHub 2017 Report</a></p></div>
+	  
+  </div>
+
+  <!-- End page content -->
+</div>
+
+
+<!-- InstanceEndEditable --><!-- W3.CSS Container -->
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+	
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

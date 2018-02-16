@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>CIS133 HTML Template</title>
+<!-- TemplateEndEditable -->
+<meta charset="utf-8">
+<link href="../css/dream.css" rel="stylesheet" type="text/css">
+<script>
+/*  Try to use an external script  */
+
+
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+
+
+<body>
+
+<h1 class="bigRed"> Playing with Dreamweaver </h1>
+
+<table summary="A regular table">
+  <caption>
+    Table 1
+  </caption>
+  <tbody>
+    <tr>
+      <td colspan="2"><!-- TemplateBeginEditable name="TitleArea" --><strong>Dreamweaver is an HTML editor in design mode &amp; WYSIWYG in live mode</strong><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td id="menu"><!-- TemplateBeginEditable name="Menuarea" -->
+        <p><a href="../myHome.html">Home</a></p>
+        <p><a href="../myAbout.html">About</a></p>
+        <p><a href="../myContact.html">Contact</a></p>
+        <p><a href="../myOrder.html">Order Now</a></p>
+      <!-- TemplateEndEditable --></td>
+      <td id="content"><!-- TemplateBeginEditable name="Content" -->
+        <p>&nbsp;</p>
+        <p><strong>Add Content Here</strong></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      <!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td id="bottom" colspan="2"><p>Contact info here <a href="mailto:yourname@html.com">e-mail</a> and physical address</p>
+      <p><strong>#999-999-9999</strong></p></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img src="../images/valid-html5.png" alt="HTML Valid"/></a>
+  </p>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/responsive-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>BetterWeb Languages</title>
+	<script src="js/lang-functions.js"></script>
+<!-- InstanceEndEditable -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+	<style>
+	#jsProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#jsBar {
+  width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+		
+#javaProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#javaBar {
+  width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+		#pythonProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#pythonBar {
+  width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+	</style>
+<!-- InstanceEndEditable -->
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-theme w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>State of The<br>Net</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="responsive-home.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="responsive-github.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">GitHub</a> 
+    <a href="responsive-lang.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Languages</a> 
+    <a href="responsive-browsers.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Web Browsers</a> 
+    <a href="responsive-os.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">OS</a> 
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-theme w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-theme w3-margin-right" onclick="w3_open()">☰</a>
+  <span>BetterWeb.io</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! --><!-- InstanceBeginEditable name="Body Content" -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-theme"><b>Languages.</b></h1>
+    <hr style="width:50px;border:5px solid lightgreen" class="w3-round">
+	  <p>One of the most fundamental aspects of the internet is the toolset it is built upon. Some people or companies use only existing technologies, whereas others push the envelope year after year to improve upon the languages and standards their predecessors left for them. </p>
+		  <p>Next to all of the web's most popular frameworks are open-source and free to use for everyone. jQuery, ReactJS, AngularJS, Bootstrap, Pug, SASS, LESS, Python, etc. The list just goes on, right?</p>
+	  <p>It's helpful for students and young professionals to know which languages, tools, and frameworks are in high demand currently. It's hard to get a job when all you know is Visual Basic these days! Likewise, in a few years, maybe knowing HTML5 will be all but obsolete. Who knows?</p>
+	  <h3>The three most active languages on GitHub in 2014 - Last Data Pull</h3>
+	  
+	  <!-- Progress Bars Module -->
+	  <div>
+		  <h3>JavaScript = 324k active repos</h3>
+		  <div id="jsProgress">
+  		<div id="jsBar">0%</div>
+		</div>
+		  <br>
+		  <button class="w3-btn w3-block w3-teal" onClick="moveJS()">Percent of total repos</button>
+		  </div>
+	  
+	  <div>
+		  <h3>Java = 223k active repos</h3>
+		  <div id="javaProgress">
+  		<div id="javaBar">0%</div>
+		</div>
+		  <br>
+		  <button class="w3-btn w3-block w3-teal" onClick="moveJava()">Percent of total repos</button>
+		  </div>
+	  
+	  <div>
+		  <h3>Python = 165k active repos</h3>
+		  <div id="pythonProgress">
+  		<div id="pythonBar">0%</div>
+		</div>
+		  <br>
+		  <button class="w3-btn w3-block w3-teal" onClick="movePython()">percent of total repos</button>
+		  </div>
+	  
+	  <p>This data is a few years old now, and much has changed in the volume of users and repositories on GitHub. However, it does appear that Java and JavaScript and Python are still dominating the field. JavaScript has left those other two in the dust at this time, truthfully.</p>
+	  <p>All data drawn from GitHut, a resource based on the GitHub platform: <a href="http://githut.info/" target="_blank">here</a></p>
+  </div>
+  
+  <!-- End page content -->
+</div>
+
+
+<!-- InstanceEndEditable --><!-- W3.CSS Container -->
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+	
+</script>
+
+</body>
+<!-- InstanceEnd --></html>
