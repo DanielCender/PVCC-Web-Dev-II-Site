@@ -1,11 +1,154 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Shopping Page</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This page allows the user to purchase a subscription to our tech solutions packages.">
+    <meta name="author" content="Daniel Cender">
+	  
+	  <!-- Bootstrap core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  
+    <title>Technology Solutions</title>
 
-<body>
-	<h1>Shopping Cart Form</h1>
-</body>
+
+
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Specialty Solutions</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Options</a>
+      </nav>
+      <a class="btn btn-outline-primary" href="https://www.mals-e.com">Sign up for Mal's</a>
+    </div>
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Options</h1>
+      <p class="lead">Quickly get up and running with our all-inclusive, specially designed solutions for everyone. You'll be darned if they don't fix all your lifes' issues!</p>
+    </div>
+
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Free</h4>
+          </div>
+          <div class="card-body">
+			  <form method="post" action="http://ww9.aitsafe.com/cf/add.cfm">
+				  <input type="hidden" name="userid" value="B6191303">
+				  <input type="hidden" name="product" value="Free Solution">
+				  <input type="hidden" name="price" value="0.00">
+            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ once</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 Mini-solutions included</li>
+              <li>2 MB of un-secure storage</li>
+              <li>You can email support....but they won't email back</li>
+              <li>Can scream into the void for other tech support</li>
+            </ul>
+            <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Add to Cart">
+			  </form>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+			  <form method="post" action="http://ww9.aitsafe.com/cf/add.cfm">
+				  <input type="hidden" name="userid" value="B6191303">
+				  <input type="hidden" name="product" value="Pro Solution">
+				  <input type="hidden" name="price" value="15000.00">
+            <h1 class="card-title pricing-card-title">$15,000 <small class="text-muted">/ once</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 Mini-solutions included</li>
+              <li>10 MB of storage</li>
+              <li>Assistants will maybe not throw away your emails</li>
+              <li>Help center access - for $200 more</li>
+            </ul>
+             <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Add to Cart">
+			  </form>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+			  <form method="post" action="http://ww9.aitsafe.com/cf/add.cfm">
+				  <input type="hidden" name="userid" value="B6191303">
+				  <input type="hidden" name="product" value="Enterprise Solution">
+				  <input type="hidden" name="price" value="29000.00">
+            <h1 class="card-title pricing-card-title">$29,000 <small class="text-muted">/ once</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Solutions to all the world's problems included</li>
+              <li>Unlimited Storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Add to Cart">
+			  </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+            <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://github.com/google">Open Source Google</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="https://github.com/NYTimes/objective-c-style-guide">Some other cool stuff</a></li>
+              <li><a class="text-muted" href="https://github.com/iluwatar/java-design-patterns">Stuff for developers</a></li>
+              <li><a class="text-muted" href="https://github.com/you-dont-need/You-Dont-Need-JavaScript">You Don't Need JS</a></li>
+              <li><a class="text-muted" href="https://www.codecademy.com/learn/learn-java">Please Just Code It Yourself</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://www.w3schools.com">Build it Yourself</a></li>
+              <li><a class="text-muted" href="https://scotch.io">Scotch.io</a></li>
+              <li><a class="text-muted" href="https://codeascraft.com">Code as Craft</a></li>
+              <li><a class="text-muted" href="https://github.com">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://stock.adobe.com/promo/firstmonthfree?as_content=fmflp&as_channel=sem&as_campclass=brand&as_campaign=US%7CCPRO%7CStock%7CPURCH%7CAS_Brand%7CGG%7C%7C&as_source=google&as_camptype=acquisition&sdid=KQPCU&s_kwcid=AL!3085!3!251204605090!e!!g!!adobe%20stock&ef_id=Wpmf6wAAAD2E1xnN:20180302190307:s">Team - Just Stock Images we stole</a></li>
+              <li><a class="text-muted" href="https://www.google.com/maps/@33.6298476,-112.0179142,15">Locations</a></li>
+              <li><a class="text-muted" href="https://www.theguardian.com/technology/2018/feb/12/facebook-personal-data-privacy-settings-ruled-illegal-german-court">Privacy Agreement</a></li>
+              <li><a class="text-muted" href="https://www.google.com/search?q=facebook+privacy&safe=active&client=safari&rls=en&source=lnms&tbm=nws&sa=X&ved=0ahUKEwjnoeCNqc7ZAhVDh1QKHVKSAZAQ_AUICigB&biw=1920&bih=996">JK, you have no privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
 </html>
+

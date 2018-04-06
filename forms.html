@@ -1,11 +1,68 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Forms Page</title>
-</head>
+<title> Playing with Mal's E-Commerce  </title>
 
-<body>
-	<h1>Forms Page</h1>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/xxxx.css">
+<style>
+    body {
+        font-family: arial;
+        font-size: 1.1em;
+        width: 90%;
+        margin: auto;
+        background-color: tan;
+    }
+    
+    fieldset {
+        border: 3px solid red;
+    }
+    
+    legend {
+        padding: 0 10px;
+    }
+    
+</style>
+    </head>
+    
+    
+    <body>
+        <h1>We Love Chocolate</h1>
+        
+        <form action="http://ww9.aitsafe.com/cf/addmulti.cfm?" method="post">
+        <fieldset>
+            <legend>Organic Chocolate</legend>
+            <h2>Honey Orange Chocolate</h2>
+            <h3>for only $7.50</h3>
+            <input type="hidden" name="userid" value="B6191303"/>
+            <input type="hidden" name="product" value="Honey Orange Chocolate"/>
+            <input type="hidden" name="price" value="7.50"/>
+            Quantity <select name="qty">
+            <option value="1"> 1 </option>
+            <option value="2"> 2 </option>
+            <option value="3"> 3 </option>
+            <option value="4"> 4 </option>
+            <option value="5"> 5 </option>
+            <option value="6"> 6 </option>
+            </select>
+            <input type="submit" value="Add to Cart"/>
+            <input type="reset" value="Clear Selection"/>
+            </fieldset>
+        </form>
+        
+        
+        
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img src="images/valid-html5.png" alt="HTML Valid"/></a>
+        </p>
 </body>
+
 </html>
+
+
+
+
+
+
+

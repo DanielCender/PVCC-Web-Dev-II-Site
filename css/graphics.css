@@ -1,0 +1,54 @@
+/* CSS Document */
+
+html {
+	background-color: #EBF3FF;
+}
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align: left;
+}
+
+.title {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	display: inline-block;
+	width: 250px;
+	font-size: 1.7em;
+	background-color: #F3AFC4;
+	border-radius: 1.5em;
+	
+}
+
+h2 {
+	font-size: 1.6em;
+	padding-left: 30%;
+	text-decoration: underline;
+	padding-bottom: 50px
+}
+
+.image-row {
+	max-width: 100%;
+	text-align: center;
+}
+
+a {
+	margin-bottom: 25px;
+}
+
+.image-thumbnail {
+	width: 25%;
+	height: auto;
+}
+
+img {
+	width: 200px;
+	height: auto;
+	border-radius: 1.6em;
+}
+
+#unedited-row {
+	padding-bottom: 50px;
+}
